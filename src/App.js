@@ -1,13 +1,13 @@
 import React from 'react';
 import { Routes ,Route } from 'react-router-dom';
-import Home from './Component/Home';
-import Features from './Component/Features';
-import Pricing from './Component/Pricing';
-import About from './Component/About';
-import Contact from './Component/Contact';
-import Error from './Component/Error';
-import List from './Component/List'
-import Footer from './Component/Footer'
+import Home from './routes/Home';
+import Features from './routes/Features';
+import Pricing from './routes/Pricing';
+import About from './routes/About';
+import Contact from './routes/Contact';
+import Error from './routes/Error';
+import List from './routes/List'
+import Footer from './routes/Footer'
 
 const App=() => {
   return (
