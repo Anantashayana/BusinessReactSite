@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    width:100%;
+    padding: 0.5em;
+}
+
+.line {
+    width: 30%;
+}
+
+hr {
+ margin-bottom: .5em;
+}
+
+
+
+.icon {
+    margin-right: 1em;
+    color: antiquewhite;
+}
+
+.copyright {
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.6em;
+}
+
+@media screen and (max-width:768px){
+ 
+    .icons{
+        margin-bottom: 0.5em;;
+    }
+}
+
+@media screen and (max-width:568px){
+ 
+    .icons{
+        margin-bottom: 0.5em;;
+    }
+
+    .line {
+        width: 70%;
+    }
+}

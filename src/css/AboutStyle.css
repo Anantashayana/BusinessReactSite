@@ -1,0 +1,97 @@
+/* AboutStyle.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+ 
+}
+
+.blogHolder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.blog {
+  width: 30%; /* Adjust as needed */
+  margin-bottom: 20px;
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+  border: 2px solid lightskyblue; /* Border around the blog */
+  border-radius: 10px;
+  background-color: bisque;
+}
+
+.blog:hover {
+  transform: scale(1.1);
+}
+
+.imageHolder img {
+  width: 100%;
+  max-height: 12em; /* Adjust the max-height as needed */
+  /* border-radius: 8px; */
+}
+
+.date, .blogHead, .aboutBlog {
+  text-align: center; /* Center text */
+  padding: 6px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.date {
+  font-size: 10px;
+}
+.aboutBlog {
+  text-align: left; /* Left-align the "about" section */
+  font-size: 12px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+  background-color: darkolivegreen;
+  padding: 20px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 52px;
+}
+
+.subscription-form {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.subscription-form input {
+  padding: 10px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+.subscription-form button {
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+
+  .blog {
+    width: 50%; /* Display blogs in a single column on small screens */
+    margin-top: 20px;
+  }
+
+  .blogHolder {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .subscription-form {
+    margin-bottom: 30px;
+  }
+}

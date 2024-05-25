@@ -1,0 +1,90 @@
+/* ContactStyle.css */
+
+.contact {
+    background-color: antiquewhite;
+    padding: 50px 0;
+    background-color: beige;
+}
+
+.contactContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.ContactForm {
+    width: 40%;
+}
+
+.contactHeader {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: darkblue; /* Blue color */
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+
+    label {
+        margin-bottom: 8px;
+        font-size: 18px;
+        color: #333;
+    }
+
+    input,
+    textarea {
+        padding: 12px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 16px;
+        transition: border-color 0.3s ease-in-out;
+
+        &:focus {
+            border-color: #3498db; /* Blue color on focus */
+        }
+    }
+
+    button {
+        background-color: darkolivegreen;
+        color: #fff;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 18px;
+        transition: background-color 0.3s ease-in-out;
+
+        &:hover {
+            background-color: darkgreen; /* Darker blue color on hover */
+        }
+    }
+}
+
+.contactImage {
+    width: 50%;
+}
+
+.contactImage img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .contactContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ContactForm,
+    .contactImage {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+}

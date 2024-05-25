@@ -1,0 +1,95 @@
+/* FeatureStyle.css */
+
+.Features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .featuresBlock {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1200px;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .mainBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Adjust the height as needed */
+    flex-direction: column;
+  }
+
+  .featuresHead {
+    font-size: 28px; /* Adjust the font size as needed */
+    font-weight: bold;
+    color: #333; /* Adjust the color as needed */
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 300;
+    color: darkgreen;
+  }
+
+  .aboutFeatures{
+    font-size: 14px; /* Adjust the font size as needed */
+    color: #555; /* Adjust the color as needed */
+    text-align: center;
+    line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  /* ////////////////// */
+  
+  .secondBlock {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* Adjust the gap between children as needed */
+    margin-left: 30px;
+    margin-bottom: 100px;
+  }
+  
+  .imageBlock img {
+    width: 20em;
+    height: 15em;
+    border-radius: 8px;
+    margin-bottom: 2px;
+  }
+  
+  .featureHeader {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: #333;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .aboutFeature {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .featuresBlock {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .secondBlock {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .imageBlock {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+    }
+  }
+  
