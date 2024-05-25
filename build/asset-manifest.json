@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.2fa6791d.css",
-    "main.js": "/static/js/main.0edb8d55.js",
-    "static/media/logo.png": "/static/media/logo.3f347ef3cf66d83e8a5d.png",
-    "static/media/shape2.jpg": "/static/media/shape2.3603a81e213ddaa3810d.jpg",
-    "static/media/contact-us.gif": "/static/media/contact-us.83328a3a299497d82d6b.gif",
-    "static/media/homeImg.jpg": "/static/media/homeImg.9938d6c865a0864ab378.jpg",
-    "static/media/r2.avif": "/static/media/r2.9e431428cd97dadcf1c0.avif",
-    "static/media/r1.avif": "/static/media/r1.7a3c2c6759d871cf5e57.avif",
-    "static/media/shape4.avif": "/static/media/shape4.e49996247496b70f74e3.avif",
-    "static/media/2.avif": "/static/media/2.ded3c7f217fde20dc222.avif",
-    "static/media/3.avif": "/static/media/3.f3bb4c193bccddf1998e.avif",
-    "static/media/1.avif": "/static/media/1.4963ae5e3c45fc3a1a53.avif",
-    "static/media/shape3.avif": "/static/media/shape3.894cda5be9f59bbb6f22.avif",
-    "static/media/shape1.avif": "/static/media/shape1.639a38ad1adfecb211bc.avif",
-    "static/media/r3.jfif": "/static/media/r3.2d767033dc4565ec6f67.jfif",
-    "index.html": "/index.html",
-    "main.2fa6791d.css.map": "/static/css/main.2fa6791d.css.map",
-    "main.0edb8d55.js.map": "/static/js/main.0edb8d55.js.map"
+    "main.css": "/BusinessReactSite/static/css/main.2fa6791d.css",
+    "main.js": "/BusinessReactSite/static/js/main.08e1820b.js",
+    "static/media/logo.png": "/BusinessReactSite/static/media/logo.3f347ef3cf66d83e8a5d.png",
+    "static/media/shape2.jpg": "/BusinessReactSite/static/media/shape2.3603a81e213ddaa3810d.jpg",
+    "static/media/contact-us.gif": "/BusinessReactSite/static/media/contact-us.83328a3a299497d82d6b.gif",
+    "static/media/homeImg.jpg": "/BusinessReactSite/static/media/homeImg.9938d6c865a0864ab378.jpg",
+    "static/media/r2.avif": "/BusinessReactSite/static/media/r2.9e431428cd97dadcf1c0.avif",
+    "static/media/r1.avif": "/BusinessReactSite/static/media/r1.7a3c2c6759d871cf5e57.avif",
+    "static/media/shape4.avif": "/BusinessReactSite/static/media/shape4.e49996247496b70f74e3.avif",
+    "static/media/2.avif": "/BusinessReactSite/static/media/2.ded3c7f217fde20dc222.avif",
+    "static/media/3.avif": "/BusinessReactSite/static/media/3.f3bb4c193bccddf1998e.avif",
+    "static/media/1.avif": "/BusinessReactSite/static/media/1.4963ae5e3c45fc3a1a53.avif",
+    "static/media/shape3.avif": "/BusinessReactSite/static/media/shape3.894cda5be9f59bbb6f22.avif",
+    "static/media/shape1.avif": "/BusinessReactSite/static/media/shape1.639a38ad1adfecb211bc.avif",
+    "static/media/r3.jfif": "/BusinessReactSite/static/media/r3.2d767033dc4565ec6f67.jfif",
+    "index.html": "/BusinessReactSite/index.html",
+    "main.2fa6791d.css.map": "/BusinessReactSite/static/css/main.2fa6791d.css.map",
+    "main.08e1820b.js.map": "/BusinessReactSite/static/js/main.08e1820b.js.map"
   },
   "entrypoints": [
     "static/css/main.2fa6791d.css",
-    "static/js/main.0edb8d55.js"
+    "static/js/main.08e1820b.js"
   ]
 }
